@@ -1,0 +1,6 @@
+{
+  "name": "Sabong System Console",
+  "description": "Enterprise multi-role live match broadcasting, multi-camera operations, and compliance console with Supabase and LiveKit in non-wagering demonstration mode.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
