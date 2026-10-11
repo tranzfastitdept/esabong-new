@@ -127,7 +127,7 @@ async function runTests() {
       userId: 'usr_bettor_003',
       matchId: 'match_001',
       selection: 'MERON',
-      amount: 999999999, // Way more than balance
+      amount: 35000, // Exceeds wallet balance (~10,000) while within max_bet (50,000)
       idempotencyKey: `fail_tx_${Date.now()}`,
     });
     assert(false, 'Test 9: Insufficient balance should have thrown error');

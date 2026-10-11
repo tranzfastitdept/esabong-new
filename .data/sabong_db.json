@@ -1,0 +1,572 @@
+{
+  "profiles": {
+    "usr_owner_001": {
+      "id": "usr_owner_001",
+      "name": "Maria Santos",
+      "username": "maria.owner",
+      "withdrawalName": "Maria Santos",
+      "gcashNum": "09171234567",
+      "role": "owner",
+      "account_status": "active",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    },
+    "usr_oper_002": {
+      "id": "usr_oper_002",
+      "name": "Juan Del Rosario",
+      "username": "juan.operator",
+      "withdrawalName": "Juan Del Rosario",
+      "gcashNum": "09189876543",
+      "role": "operator",
+      "account_status": "active",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    },
+    "usr_bettor_003": {
+      "id": "usr_bettor_003",
+      "name": "Carlos Reyes",
+      "username": "carlos.bettor",
+      "withdrawalName": "Carlos Updated Name",
+      "gcashNum": "09199990000",
+      "role": "bettor",
+      "account_status": "active",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:45:27.978Z"
+    },
+    "usr_1791737092809_culfp": {
+      "id": "usr_1791737092809_culfp",
+      "name": "Test Tester",
+      "username": "testuser_1791737092808",
+      "withdrawalName": "Test Payout Name",
+      "gcashNum": "09170001122",
+      "role": "bettor",
+      "account_status": "active",
+      "created_at": "2026-10-11T16:44:52.809Z",
+      "updated_at": "2026-10-11T16:44:52.809Z"
+    },
+    "usr_1791737127976_8zier": {
+      "id": "usr_1791737127976_8zier",
+      "name": "Test Tester",
+      "username": "testuser_1791737127976",
+      "withdrawalName": "Test Payout Name",
+      "gcashNum": "09170001122",
+      "role": "bettor",
+      "account_status": "active",
+      "created_at": "2026-10-11T16:45:27.976Z",
+      "updated_at": "2026-10-11T16:45:27.976Z"
+    }
+  },
+  "passwords": {
+    "maria.owner": "OwnerPass2026!",
+    "juan.operator": "OperatorPass2026!",
+    "carlos.bettor": "BettorPass2026!",
+    "testuser_1791737092808": "SecurePassword123!",
+    "testuser_1791737127976": "SecurePassword123!"
+  },
+  "events": {
+    "evt_derby_2026_01": {
+      "id": "evt_derby_2026_01",
+      "title": "2026 Pasay Coliseum Championship Derby (Demo)",
+      "description": "Multi-camera broadcast demonstration event featuring 4-cock derby matches in strict non-wagering mode.",
+      "scheduled_start": "2026-10-11T15:34:02.692Z",
+      "venue_metadata": {
+        "arena_name": "Pasay Grand Coliseum",
+        "city": "Pasay City, Metro Manila",
+        "coliseum_code": "PASAY-RING-A",
+        "ring": "Ring 1 Main Octagon"
+      },
+      "status": "ACTIVE",
+      "created_by": "usr_owner_001",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    }
+  },
+  "matches": {
+    "match_001": {
+      "id": "match_001",
+      "event_id": "evt_derby_2026_01",
+      "match_number": 1,
+      "participant_a": {
+        "name": "Thunderbird Crimson Hatch",
+        "breed": "Hatch / Roundhead Cross",
+        "weightKg": 2.35,
+        "legBand": "PH-BATCH-881",
+        "farm": "Batangas Elite Gamefarm",
+        "handler": "Mang Carding",
+        "odds": 1.85,
+        "color": "#DC2626",
+        "photoUrl": "/images/match_rooster_meron_1791703471669.jpg"
+      },
+      "participant_b": {
+        "name": "Silver Cobalt Kelso",
+        "breed": "Out-and-Out Kelso",
+        "weightKg": 2.32,
+        "legBand": "CEB-KEL-402",
+        "farm": "Cebu Highlands Loft",
+        "handler": "Master Dennis",
+        "odds": 1.95,
+        "color": "#2563EB",
+        "photoUrl": "/images/match_rooster_wala_1791703484706.jpg"
+      },
+      "scheduled_start": "2026-10-11T16:14:02.692Z",
+      "status": "LIVE",
+      "broadcast_room_id": "livekit-room-match-001",
+      "proposed_result": null,
+      "confirmed_result": null,
+      "result_status": "UNRESOLVED",
+      "active_camera": "Camera 1 — Main View",
+      "viewers_count": 34,
+      "created_by": "usr_oper_002",
+      "updated_by": "usr_oper_002",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    },
+    "match_002": {
+      "id": "match_002",
+      "event_id": "evt_derby_2026_01",
+      "match_number": 2,
+      "participant_a": {
+        "name": "Boston Red Leiper",
+        "breed": "Leiper Hatch",
+        "weightKg": 2.4,
+        "legBand": "LAG-LEI-109",
+        "farm": "Laguna Crest Farm",
+        "handler": "Bong Tan",
+        "odds": 1.9,
+        "color": "#DC2626",
+        "photoUrl": "/images/match_rooster_meron_1791703471669.jpg"
+      },
+      "participant_b": {
+        "name": "Midnight Black McRae",
+        "breed": "Black McRae / Mel Sims",
+        "weightKg": 2.38,
+        "legBand": "DVO-MCR-776",
+        "farm": "Davao Southern Aviary",
+        "handler": "Coach Lito",
+        "odds": 1.9,
+        "color": "#2563EB",
+        "photoUrl": "/images/match_rooster_wala_1791703484706.jpg"
+      },
+      "scheduled_start": "2026-10-11T17:04:02.692Z",
+      "status": "READY",
+      "broadcast_room_id": "livekit-room-match-002",
+      "proposed_result": null,
+      "confirmed_result": null,
+      "result_status": "UNRESOLVED",
+      "active_camera": "Camera 1 — Main View",
+      "viewers_count": 0,
+      "created_by": "usr_oper_002",
+      "updated_by": "usr_oper_002",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    },
+    "match_003": {
+      "id": "match_003",
+      "event_id": "evt_derby_2026_01",
+      "match_number": 3,
+      "participant_a": {
+        "name": "Gold Phoenix Albany",
+        "breed": "Albany Claret",
+        "weightKg": 2.29,
+        "legBand": "PAMP-ALB-311",
+        "farm": "Pampanga Valley Ranch",
+        "handler": "Vic Sotto",
+        "odds": 1.8,
+        "color": "#DC2626"
+      },
+      "participant_b": {
+        "name": "Sweater 5K Line",
+        "breed": "Sweater Line",
+        "weightKg": 2.31,
+        "legBand": "ILO-SWT-612",
+        "farm": "Iloilo Premier Breeders",
+        "handler": "Jun Morales",
+        "odds": 2,
+        "color": "#2563EB"
+      },
+      "scheduled_start": "2026-10-11T18:04:02.693Z",
+      "status": "SCHEDULED",
+      "broadcast_room_id": "livekit-room-match-003",
+      "proposed_result": null,
+      "confirmed_result": null,
+      "result_status": "UNRESOLVED",
+      "active_camera": "Camera 1 — Main View",
+      "viewers_count": 0,
+      "created_by": "usr_oper_002",
+      "updated_by": "usr_oper_002",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    },
+    "match_004": {
+      "id": "match_004",
+      "event_id": "evt_derby_2026_01",
+      "match_number": 4,
+      "participant_a": {
+        "name": "Butcher Gray Feather",
+        "breed": "Phil Marsh Butcher",
+        "weightKg": 2.33,
+        "legBand": "RIZ-BUT-901",
+        "farm": "Rizal Ridge Aviary",
+        "handler": "Boyet Cruz",
+        "odds": 1.82,
+        "color": "#DC2626"
+      },
+      "participant_b": {
+        "name": "Possum Golden Sweater",
+        "breed": "Possum Sweater",
+        "weightKg": 2.36,
+        "legBand": "BUL-POS-554",
+        "farm": "Bulacan Valley Loft",
+        "handler": "Rico Puno",
+        "odds": 1.98,
+        "color": "#2563EB"
+      },
+      "scheduled_start": "2026-10-11T14:34:02.693Z",
+      "status": "RESULT_CONFIRMED",
+      "broadcast_room_id": "livekit-room-match-004",
+      "proposed_result": "MERON",
+      "confirmed_result": "MERON",
+      "result_status": "CONFIRMED",
+      "active_camera": "Camera 1 — Main View",
+      "viewers_count": 0,
+      "created_by": "usr_oper_002",
+      "updated_by": "usr_owner_001",
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:34:02.692Z"
+    }
+  },
+  "broadcasts": {
+    "bc_001": {
+      "id": "bc_001",
+      "match_id": "match_001",
+      "livekit_room_name": "livekit-room-match-001",
+      "status": "LIVE",
+      "active_program_source": "Camera 1 — Main View",
+      "started_at": "2026-10-11T16:15:42.693Z",
+      "ended_at": null,
+      "created_by": "usr_oper_002"
+    }
+  },
+  "broadcast_events": [
+    {
+      "id": "bce_001",
+      "broadcast_id": "bc_001",
+      "event_type": "stream_started",
+      "source_metadata": {
+        "source_name": "Camera 1 — Main View",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      "actor_id": "usr_oper_002",
+      "occurred_at": "2026-10-11T16:15:42.693Z",
+      "details": {
+        "mode": "Demo Multi-Camera Live"
+      }
+    },
+    {
+      "id": "bce_002",
+      "broadcast_id": "bc_001",
+      "event_type": "camera_switched",
+      "source_metadata": {
+        "source_name": "Camera 2 — Side Pit Angle",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      "actor_id": "usr_oper_002",
+      "occurred_at": "2026-10-11T16:24:02.693Z",
+      "details": {
+        "reason": "Close-up spur and scale inspection"
+      }
+    },
+    {
+      "id": "bce_003",
+      "broadcast_id": "bc_001",
+      "event_type": "camera_switched",
+      "source_metadata": {
+        "source_name": "Camera 1 — Main View",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      "actor_id": "usr_oper_002",
+      "occurred_at": "2026-10-11T16:29:02.693Z",
+      "details": {
+        "reason": "Switched back to program wide arena"
+      }
+    }
+  ],
+  "wallets": {
+    "usr_bettor_003": {
+      "id": "wal_bettor_003",
+      "user_id": "usr_bettor_003",
+      "virtual_balance": 9800,
+      "created_at": "2026-10-11T16:34:02.692Z",
+      "updated_at": "2026-10-11T16:45:27.979Z"
+    },
+    "usr_1791737092809_culfp": {
+      "id": "wal_usr_1791737092809_culfp",
+      "user_id": "usr_1791737092809_culfp",
+      "virtual_balance": 10000,
+      "created_at": "2026-10-11T16:44:52.809Z",
+      "updated_at": "2026-10-11T16:44:52.809Z"
+    },
+    "usr_1791737127976_8zier": {
+      "id": "wal_usr_1791737127976_8zier",
+      "user_id": "usr_1791737127976_8zier",
+      "virtual_balance": 10000,
+      "created_at": "2026-10-11T16:45:27.976Z",
+      "updated_at": "2026-10-11T16:45:27.976Z"
+    }
+  },
+  "transactions": [
+    {
+      "id": "tx_1791737127979_8mok",
+      "wallet_id": "wal_bettor_003",
+      "user_id": "usr_bettor_003",
+      "match_id": "match_001",
+      "transaction_type": "DEMO_BET_PLACED",
+      "amount": 100,
+      "previous_balance": 9900,
+      "resulting_balance": 9800,
+      "status": "COMPLETED",
+      "idempotency_key": "test_idemp_key_1791737127979",
+      "metadata": {
+        "selection": "MERON",
+        "potential_payout": 185,
+        "notes": "Simulated Demo Bet on MERON at odds 1.85x"
+      },
+      "created_at": "2026-10-11T16:45:27.979Z"
+    },
+    {
+      "id": "tx_1791737127977_init",
+      "wallet_id": "wal_usr_1791737127976_8zier",
+      "user_id": "usr_1791737127976_8zier",
+      "transaction_type": "INITIAL_CREDIT",
+      "amount": 10000,
+      "previous_balance": 0,
+      "resulting_balance": 10000,
+      "status": "COMPLETED",
+      "idempotency_key": "init-usr_1791737127976_8zier-1791737127977",
+      "metadata": {
+        "notes": "Welcome demonstration test credits"
+      },
+      "created_at": "2026-10-11T16:45:27.976Z"
+    },
+    {
+      "id": "tx_1791737092812_3rqv",
+      "wallet_id": "wal_bettor_003",
+      "user_id": "usr_bettor_003",
+      "match_id": "match_001",
+      "transaction_type": "DEMO_BET_PLACED",
+      "amount": 100,
+      "previous_balance": 10000,
+      "resulting_balance": 9900,
+      "status": "COMPLETED",
+      "idempotency_key": "test_idemp_key_1791737092812",
+      "metadata": {
+        "selection": "MERON",
+        "potential_payout": 185,
+        "notes": "Simulated Demo Bet on MERON at odds 1.85x"
+      },
+      "created_at": "2026-10-11T16:44:52.812Z"
+    },
+    {
+      "id": "tx_1791737092810_init",
+      "wallet_id": "wal_usr_1791737092809_culfp",
+      "user_id": "usr_1791737092809_culfp",
+      "transaction_type": "INITIAL_CREDIT",
+      "amount": 10000,
+      "previous_balance": 0,
+      "resulting_balance": 10000,
+      "status": "COMPLETED",
+      "idempotency_key": "init-usr_1791737092809_culfp-1791737092810",
+      "metadata": {
+        "notes": "Welcome demonstration test credits"
+      },
+      "created_at": "2026-10-11T16:44:52.809Z"
+    },
+    {
+      "id": "tx_001",
+      "wallet_id": "wal_bettor_003",
+      "user_id": "usr_bettor_003",
+      "transaction_type": "INITIAL_CREDIT",
+      "amount": 10000,
+      "previous_balance": 0,
+      "resulting_balance": 10000,
+      "status": "COMPLETED",
+      "idempotency_key": "idemp-init-carlos-001",
+      "metadata": {
+        "notes": "Welcome demonstration test credits (Non-cash / Non-redeemable)"
+      },
+      "created_at": "2026-10-11T16:34:02.692Z"
+    }
+  ],
+  "result_reviews": [
+    {
+      "id": "rev_001",
+      "match_id": "match_004",
+      "submitted_by": "usr_oper_002",
+      "reviewed_by": "usr_owner_001",
+      "proposed_result": "MERON",
+      "confirmed_result": "MERON",
+      "decision": "APPROVED",
+      "reason": "Fight concluded in Round 1 with clear countdown count-out. Verified by 2 licensed pit referees.",
+      "submitted_at": "2026-10-11T14:37:22.693Z",
+      "reviewed_at": "2026-10-11T14:39:02.693Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "actor_id": "usr_bettor_003",
+      "actor_name": "Carlos Reyes (@carlos.bettor)",
+      "action": "PAYOUT_DETAILS_UPDATED",
+      "entity_type": "USER_PROFILE",
+      "entity_id": "usr_bettor_003",
+      "previous_values": {
+        "withdrawalName": "Carlos Updated Name",
+        "gcashNum": "09199990000"
+      },
+      "new_values": {
+        "withdrawalName": "Carlos Updated Name",
+        "gcashNum": "09199990000"
+      },
+      "reason": "User updated their demonstration payout profile.",
+      "id": "aud_1791737127978_v2t0",
+      "created_at": "2026-10-11T16:45:27.978Z"
+    },
+    {
+      "actor_id": "usr_1791737127976_8zier",
+      "actor_name": "Test Tester (@testuser_1791737127976)",
+      "action": "USER_REGISTERED",
+      "entity_type": "USER",
+      "entity_id": "usr_1791737127976_8zier",
+      "previous_values": null,
+      "new_values": {
+        "username": "testuser_1791737127976",
+        "role": "bettor"
+      },
+      "reason": "Standard bettor account registration",
+      "id": "aud_1791737127977_amfa",
+      "created_at": "2026-10-11T16:45:27.977Z"
+    },
+    {
+      "actor_id": "usr_bettor_003",
+      "actor_name": "Carlos Reyes (@carlos.bettor)",
+      "action": "PAYOUT_DETAILS_UPDATED",
+      "entity_type": "USER_PROFILE",
+      "entity_id": "usr_bettor_003",
+      "previous_values": {
+        "withdrawalName": "Carlos Reyes",
+        "gcashNum": "09195551234"
+      },
+      "new_values": {
+        "withdrawalName": "Carlos Updated Name",
+        "gcashNum": "09199990000"
+      },
+      "reason": "User updated their demonstration payout profile.",
+      "id": "aud_1791737092811_y84p",
+      "created_at": "2026-10-11T16:44:52.811Z"
+    },
+    {
+      "actor_id": "usr_1791737092809_culfp",
+      "actor_name": "Test Tester (@testuser_1791737092808)",
+      "action": "USER_REGISTERED",
+      "entity_type": "USER",
+      "entity_id": "usr_1791737092809_culfp",
+      "previous_values": null,
+      "new_values": {
+        "username": "testuser_1791737092808",
+        "role": "bettor"
+      },
+      "reason": "Standard bettor account registration",
+      "id": "aud_1791737092810_czc5",
+      "created_at": "2026-10-11T16:44:52.810Z"
+    },
+    {
+      "id": "aud_001",
+      "actor_id": "usr_owner_001",
+      "actor_name": "Maria Santos (Owner)",
+      "action": "PLATFORM_INITIALIZATION",
+      "entity_type": "SYSTEM",
+      "entity_id": "SYSTEM_CONSOLE",
+      "previous_values": null,
+      "new_values": {
+        "mode": "DEMO_NON_WAGERING",
+        "compliance_lock": true
+      },
+      "reason": "Initialized platform in strict compliance non-wagering demonstration mode.",
+      "created_at": "2026-10-11T16:34:02.692Z"
+    },
+    {
+      "id": "aud_002",
+      "actor_id": "usr_oper_002",
+      "actor_name": "Juan Del Rosario (Operator)",
+      "action": "MATCH_BROADCAST_STARTED",
+      "entity_type": "MATCH",
+      "entity_id": "match_001",
+      "previous_values": {
+        "status": "READY"
+      },
+      "new_values": {
+        "status": "LIVE",
+        "camera": "Camera 1 — Main View"
+      },
+      "reason": "Referees cleared arena pit. Started program broadcast feed.",
+      "created_at": "2026-10-11T16:15:42.693Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "user_id": "usr_bettor_003",
+      "notification_type": "INFO",
+      "title": "Demo Credits Provisioned",
+      "message": "10,000 demonstration virtual credits have been loaded for testing the console. No real money can be wagered or withdrawn.",
+      "read_at": null,
+      "created_at": "2026-10-11T16:34:02.692Z"
+    },
+    {
+      "id": "notif_002",
+      "user_id": "usr_bettor_003",
+      "notification_type": "MATCH",
+      "title": "Match #1 is LIVE",
+      "message": "Thunderbird Crimson Hatch vs Silver Cobalt Kelso has entered the octagon.",
+      "read_at": null,
+      "created_at": "2026-10-11T16:15:42.693Z"
+    }
+  ],
+  "compliance_records": [
+    {
+      "id": "comp_001",
+      "authorization_type": "AMUSEMENT_GAMING_LICENSING",
+      "issuing_authority": "COMMISSION_ON_GAMING_DEMO_BRANCH",
+      "reference_number": "DEMO-AUTH-2026-X990",
+      "status": "PENDING_REVIEW",
+      "effective_date": "2026-01-01",
+      "expiry_date": "2026-12-31",
+      "verification_notes": "CRITICAL COMPLIANCE GATE: Real-money gambling functionality is strictly disabled. Operating as software architecture preview and broadcast demonstration.",
+      "verified_by": null,
+      "verified_at": null,
+      "created_at": "2026-10-11T16:34:02.692Z"
+    },
+    {
+      "id": "comp_002",
+      "authorization_type": "BROADCAST_TECHNICAL_COMPLIANCE",
+      "issuing_authority": "TELECOMMUNICATIONS_STANDARDS_BOARD",
+      "reference_number": "NTC-BROADCAST-TEST-442",
+      "status": "ACTIVE",
+      "effective_date": "2026-02-15",
+      "expiry_date": "2027-02-15",
+      "verification_notes": "LiveKit WebRTC sub-second latency multi-camera broadcast protocol verified for technical evaluation.",
+      "verified_by": "usr_owner_001",
+      "verified_at": "2026-10-11T16:34:02.692Z",
+      "created_at": "2026-10-11T16:34:02.692Z"
+    }
+  ],
+  "system_settings": {
+    "demo_mode": true,
+    "legal_authorization_verified": false,
+    "faucet_refill_amount": 5000,
+    "max_demo_bet": 50000,
+    "allow_operator_signups": false
+  }
+}

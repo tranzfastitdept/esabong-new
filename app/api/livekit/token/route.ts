@@ -53,7 +53,10 @@ export async function POST(req: NextRequest) {
       roomName,
       identity,
       isPublisher,
-      livekitUrl: process.env.NEXT_PUBLIC_LIVEKIT_URL || 'wss://demo-livekit.cloud',
+      livekitUrl:
+        process.env.NEXT_PUBLIC_LIVEKIT_URL ||
+        process.env.LIVEKIT_URL ||
+        'wss://demo-livekit.cloud',
       mode: 'DEMO_BROADCAST',
     });
   } catch (error: unknown) {
